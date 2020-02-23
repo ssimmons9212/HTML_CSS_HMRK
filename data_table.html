@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wind Speed</title>
+        <link rel="stylesheet" href="style.css">
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="dist/js/bootstrap.min.js"></script>
+                
+        </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="main_page.html" style="color: darkgrey">Latitude</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="temp.html">Max Temperature</a></li>
+                <li><a href="humidity.html">Humidity</a></li>
+                <li><a href="cloud.html">Cloudiness</a></li>
+                <li><a href="wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data For Cities</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+      <!-- Main component for a primary marketing message or call to action -->
+    <div class="plot">
+      <h2>Wind Speed</h2>
+      <hr>
+      <img src="LatitudeVSWindSpeed.png" alt="Wind Speed" width="600" height="450">
+      <p>In wind speed graph, data is equally spread in general with several exceptions close to poles in both direction with 30mph wind speed. The cities close to poles are prone to have windy weather.</p>
+      <p></p>
+    </div>
+    <div id="visualizations">
+            <h2>Visualizations</h2>
+            <hr>
+            <a href="temp.html">
+              <img src="LatitudeVSMaxTemp.png" alt="Max Temperature" width="150" height="112.5">
+            </a>
+            <a href="humidity.html">
+              <img src="LatitudeVSHumidity.png" alt="Humidity" width="150" height="112.5">
+            </a>
+            <a href="cloud.html">
+              <img src="LatitudeVSCloudiness.png" alt="Cloudiness" width="150" height="112.5">
+            </a>
+            <a href="wind.html">
+              <img src="LatitudeVSWindSpeed.png" alt="Wind Speed" width="150" height="112.5">
+            </a>
+          </div>
+          <div id="footer2"></div>
+          <div id="footer1">
+          </div>
+        </body>
+      </html>

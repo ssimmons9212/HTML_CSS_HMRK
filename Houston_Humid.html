@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cloudiness</title>
+        <link rel="stylesheet" href="style.css">
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="dist/js/bootstrap.min.js"></script>
+                
+    </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="main_page.html" style="color: darkblue">Latitude</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="temp_lat.html">Max Temp</a></li>
+                <li><a href="Houston_Humid.html">Humid</a></li>
+                <li><a href="Head_In_The_Clouds.html">Cloud Cover</a></li>
+                <li><a href="Windy_City.html">Wind</a></li>
+              </ul>
+            </li>
+            <li><a href="analytics.html">Analytics</a></li>
+            <li><a href="table_cities.html">Data for Cities</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    
+    <div class="plot">
+      <h1>Humid Like Houston...goodness i hope not</h1>
+      <hr>
+      <img src="humid.png" alt="Clouds" width="600" height="300">
+      <p> There is a higher density of high huidity data points in the higher positive latitudes were we also see lower temperatures which is interesting.
+      <p></p>
+    </div>
+    <div id="visualizations">
+            <h2>Visualizations</h2>
+            <hr>
+            <a href="temp_lat.html">
+              <img src="Temp.png" alt="Max Temperature" width="170" height="125">
+            </a>
+            <a href="Houston_Humid.html">
+              <img src="humid.png" alt="Humidity" width="170" height="125">
+            </a>
+            <a href="Head_In_The_Clouds.html">
+              <img src="Clouds.png" alt="Cloudiness" width="170" height="125">
+            </a>
+            <a href="Windy_City.html">
+              <img src="Wind.png" alt="Wind Speed" width="170" height="125">
+            </a>
+          </div>
+          <div id="footer2"></div>
+          <div id="footer1">
+          </div>
+        </body>
+    </html>
